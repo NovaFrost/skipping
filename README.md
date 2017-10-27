@@ -23,7 +23,7 @@ chmod u+x cluster.sh
 </pre>
 
 ## Run  
-The code is run on multiple threads. Defaultly, I use 32 threads to accelerate the calculation. My experimental enviroment is a Dell PowerEdge-R730 server with two Intel(R) Xeon(R) CPU E5-2640 v3 and 128GB RAM. Under this circumstance, processing a query takes 3.40s per thread and 1.09s per thread for Youtube dataset. 
+The code is run on multiple threads. Defaultly, I use 32 threads to accelerate the calculation. My experimental enviroment is a Dell PowerEdge-R730 server with two Intel(R) Xeon(R) CPU E5-2640 v3 and 128GB RAM. Under this circumstance, processing a query takes 3.40s per thread for Youtube dataset. 
 To run the program, one could use fewer threads to compute (see Arguments of model for more details). Besides, 200MB of RAM is enough to run it.
 <pre>
 chmod u+x model.sh  
