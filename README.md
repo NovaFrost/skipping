@@ -8,7 +8,7 @@
 
 ### Download data
 <pre>
-1. mkdir extra && cd extra
+1. cd extra
 2. download files in the current directory  
 https://sites.google.com/site/ismir2015shapelets/dataYoutubeCovers.mat?attredirects=0&d=1
 </pre>
