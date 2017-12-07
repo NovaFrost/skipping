@@ -10,7 +10,6 @@
 <pre>
 1. mkdir extra && cd extra
 2. download files in the current directory  
-https://www.dropbox.com/s/21zvg023pcybywt/labels.mat?dl=0
 https://sites.google.com/site/ismir2015shapelets/dataYoutubeCovers.mat?attredirects=0&d=1
 </pre>
 ### Transform .mat to .hpcp (the program use YAML format to save files)  
