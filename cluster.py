@@ -46,7 +46,7 @@ for i, hpcp_file in enumerate(file_list):
             sample = hpcp[j-(M-1):j+1].flatten() * 1000
             data.append(sample)
 data = np.array(data, dtype='float32')
-centroid, labels = kmeans2(data, K, iter=20, thresh=1e-05, minit='points', missing='warn')
+centroid, labels = kmeans2(data, K, iter=19, thresh=1e-05, minit='points', missing='warn')
 
 np.savetxt(tmp_out_dir + 'center', centroid, '%.18f')
 sample_id = 0
